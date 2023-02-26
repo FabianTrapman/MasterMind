@@ -78,9 +78,9 @@ def start_npc():
 
     # The computer has guessed correctly, and will display it
     if black_pins == 4:
-        print(f'You gave the code: {answer_game}.'
-              f'The computer guessed: {current_guess}'
-              f'The computer guessed correctly!')
+        print(f'You gave the code: {answer_game}.\n'
+              f'The computer guessed: {current_guess}\n'
+              f'The computer guessed correctly!\n')
 
     # The guesses variable gets replaced by the new list, wich contains all the new possibilities
     # if algo == 'simple strategy':

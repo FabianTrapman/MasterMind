@@ -83,4 +83,6 @@ def worstcase(possible_guesses, current_guess, fb):
 
     return guesses_aantal[max(guesses_aantal)]
 
-# def fabian(possible_guesses, current_guess, fb):
+def fabian(possible_guesses, current_guess, fb):
+
+    return 'ik denk dat dit nog een stapje boven mijn kunnen zit'
