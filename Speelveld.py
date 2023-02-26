@@ -151,7 +151,7 @@ def start_pc():
             # If the given color is incorrect, it keeps asking for a correct one
             while guess not in colors:
                 print('Colors you have to chose from: blue, green, orange, purple, red, yellow')
-                guess = input('Guess a color: ')
+                guess = input('Guess a color:  ')
 
                 if guess == 'start':
                     start_pc()
