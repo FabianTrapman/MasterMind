@@ -1,0 +1,55 @@
+Mastermind instructie
+
+Het spell kan op twee manieren gespeeld worden.
+Jij die de code probeert te raden en de computer die jou code probeert te raden
+
+
+
+Speelveld.py
+
+Na intro kan je aangeven of je 'pc' of 'npc' wilt
+
+pc staat voor 'player controlled'
+en zorgt ervoor dat jij de code raad van de computer
+
+de 'DEFAULT' mode
+staat voor een makkelijkere versie van het spel wat met
+een code lengte van 4 wordt gespeeld
+een hoeveelheid kleuren van 6 wordt gespeeld
+
+de 'ENHANCED' mode
+staat voor moeilijkere versie van het spel wat met
+een code lengte van maximaal ~8 kan worden gespeeld
+een hoeveelheid kleuren van maximaal 16 kan worden gespeeld
+
+nu kan je gaan raden
+er wordt een lijst terug gegeven waar in staat hoe jouw gok overeenkomt met het antwoord
+
+zwarte pinnen staan voor correct geplaatste kleuren
+witte pinnen staan voor correct gegeven kleuren
+
+ga nu door tot je de code hebt gekraakt
+
+
+
+npc staat voor 'non player controlled'
+en zorgt ervoor dat de computer jouw code raad
+
+nu kan je aangeven of je simple strategy of worst case wilt
+
+simple strategy en worst case zijn beide algoritmes
+simple strategy zoekt d.m.v de beste mogelijke gok uit te kiezen en op basis daarvan de overige gokken lijst te vernauwen
+    bron: https://github.com/LinaBlijlevenHU/StructuredProgramming2023/blob/main/Les6/mastermind.py
+        'Yet Another Mastermind Strategy' - Barteld Kooi / Universiteit Groningen
+
+worst case zoek d.m.v telkens na een gok alle overige gokken te testen op hoeveel overeenkomstige gokken over zijn
+    bron: 'Yet Another Mastermind Strategy' - Barteld Kooi / Universiteit Groningen
+
+nu bedenk je een code voor de computer
+
+nu gaat de computer vragen stellen en geef jij als feedback de pinnetjes terug
+zwarte pinnen staan voor correct geplaatste kleuren
+witte pinnen staan voor correct gegeven kleuren
+
+de computer gaat nu door tot hij de code heeft
+daarna kan je aangeven of je nog een keer wilt spelen of of je wilt afsluiten
